@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       borderRadius: BorderRadius.circular(12), // Adjust the border radius as needed
                     ),
                     child: Image.asset(
-                      'assets/profile.jpg',
+                      'assets/profile1.png',
                       height: 100,
                       width: 100,
                       fit: BoxFit.cover,
@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 300,
                         margin: const EdgeInsets.only(top: 12, bottom: 6, left: 20),
                         child: Text(
-                          'Aeron Marcelo Tuba',
+                          'Rb Santiago',
                           style: TextStyle(fontFamily: 'Monsterrat', fontWeight: FontWeight.bold, fontSize: 25),
                         ),
                       ),
@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 300,
                         margin: const EdgeInsets.only(left: 20),
                         child: Text(
-                          'Administrator',
+                          'CEO',
                           style: TextStyle(fontFamily: 'Arial', fontSize: 18),
                         ),
                       ),
@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         margin: const EdgeInsets.only(left: 14, top: 14, right: 14),
                         child: Icon(
                           FontAwesomeIcons.userAlt,
-                          color: Colors.black,
+                          color: Colors.teal,
                         ),
                       ),
                       Container(
@@ -114,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: Icon(
                         FontAwesomeIcons.greaterThan,
-                        color: Colors.black,
+                        color: Colors.teal,
                         size: 18,
                       ),
                     ),
@@ -133,7 +133,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         margin: const EdgeInsets.only(left: 14, top: 14, right: 14),
                         child: Icon(
                           FontAwesomeIcons.cog,
-                          color: Colors.black,
+                          color: Colors.teal,
                         ),
                       ),
                       Container(
@@ -154,7 +154,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: Icon(
                         FontAwesomeIcons.greaterThan,
-                        color: Colors.black,
+                        color: Colors.teal,
                         size: 18,
                       ),
                     ),
@@ -172,7 +172,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         margin: const EdgeInsets.only(left: 14, top: 14, right: 14),
                         child: Icon(
                           FontAwesomeIcons.solidStickyNote,
-                          color: Colors.black,
+                          color: Colors.teal,
                         ),
                       ),
                       Container(
@@ -193,7 +193,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: Icon(
                         FontAwesomeIcons.greaterThan,
-                        color: Colors.black,
+                        color: Colors.teal,
                         size: 18,
                       ),
                     ),
@@ -211,7 +211,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         margin: const EdgeInsets.only(left: 14, top: 14, right: 14),
                         child: Icon(
                           FontAwesomeIcons.shieldAlt,
-                          color: Colors.black,
+                          color: Colors.teal,
                         ),
                       ),
                       Container(
@@ -232,7 +232,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: Icon(
                         FontAwesomeIcons.greaterThan,
-                        color: Colors.black,
+                        color: Colors.teal,
                         size: 18,
                       ),
                     ),
@@ -253,7 +253,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         margin: const EdgeInsets.only(left: 14, top: 14, right: 14),
                         child: Icon(
                           FontAwesomeIcons.infoCircle,
-                          color: Colors.black,
+                          color: Colors.teal,
                         ),
                       ),
                       Container(
@@ -274,7 +274,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: Icon(
                         FontAwesomeIcons.greaterThan,
-                        color: Colors.black,
+                        color: Colors.teal,
                         size: 18,
                       ),
                     ),
@@ -293,7 +293,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         margin: const EdgeInsets.only(left: 14, top: 14, right: 14),
                         child: Icon(
                           FontAwesomeIcons.book,
-                          color: Colors.black,
+                          color: Colors.teal,
                         ),
                       ),
                       Container(
@@ -314,7 +314,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: Icon(
                         FontAwesomeIcons.greaterThan,
-                        color: Colors.black,
+                        color: Colors.teal,
                         size: 18,
                       ),
                     ),
@@ -333,7 +333,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         margin: const EdgeInsets.only(left: 14, top: 14, right: 14),
                         child: Icon(
                           FontAwesomeIcons.users,
-                          color: Colors.black,
+                          color: Colors.teal,
                         ),
                       ),
                       Container(
@@ -354,7 +354,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: Icon(
                         FontAwesomeIcons.greaterThan,
-                        color: Colors.black,
+                        color: Colors.teal,
                         size: 18,
                       ),
                     ),
@@ -375,14 +375,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: [
                     Icon(
                       FontAwesomeIcons.headphones,
-                      color: Colors.black,
+                      color: Colors.teal,
                       size: 50,
                     ),
                     SizedBox(width: 30),  
                     Text(
                       'Feel Free to Ask. We Ready to Help',
                       style: TextStyle(
-                        color: Colors.black,
+                        color: Colors.teal,
                         fontFamily: 'Arial',
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -406,7 +406,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: Icon(
                         FontAwesomeIcons.home,
-                        color: Colors.black,
+                        color: Colors.teal,
                         size: 40,
                       ),
                     ),
@@ -418,7 +418,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: Icon(
                         FontAwesomeIcons.fileDownload,
-                        color: Colors.black,
+                        color: Colors.teal,
                         size: 40,
                       ),
                     ),
@@ -430,7 +430,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: Icon(
                         FontAwesomeIcons.solidEnvelope,
-                        color: Colors.black,
+                        color: Colors.teal,
                         size: 40,
                       ),
                     ),
@@ -442,7 +442,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Center(
                       child: Icon(
                         FontAwesomeIcons.userAlt,
-                        color: Colors.black,
+                        color: Colors.teal,
                         size: 40,
                       ),
                     ),
